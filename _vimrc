@@ -397,11 +397,19 @@ function! <SID>BufcloseCloseIt()
 endfunction
 
 "custom leaders
+"Open new tab, and got to ex in the current working directory
 map <leader>o :tabnew %:h <cr>
+"Edit Vim settings in a new tab
 map <leader>ev :tabnew $MYVIMRC <cr>
+"paste from windows clipboard
 map <leader>v "+p<cr>
-map <leader>pr :e C:\@Projects\CAR\assets <cr>
-map <Leader>e :e <C-R>=expand("%:p:h") . "\" <CR>
+"Explorer in current directory
+map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
+"move to the tab to the left
 nnoremap <S-h> gT
+"move to the tab to the right
 nnoremap <S-l> gt
+"insert a line break at the cursor
+:nmap <c-cr> i<cr><Esc>
+"remap jj to esc for faster go to normal mode 
 inoremap jj <Esc>
