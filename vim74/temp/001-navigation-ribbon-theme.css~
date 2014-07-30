@@ -1,0 +1,288 @@
+
+#main-nav-ribbon {
+    z-index: 300;
+    clear: left;
+    padding: 0;
+    width: 970px;
+    background-color: #009ada;
+
+}
+
+#main-nav-news {
+    margin-left: 145px;
+}
+    #main-nav-ribbon ul.root-menu-items li {
+        height: 42px;
+    }
+
+        #main-nav-ribbon ul.root-menu-items li a {
+            font-family: 'Roboto Condensed';
+            background: none;
+            height: 42px;
+            font-size: 15px;
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: none;
+            line-height: 30px;
+            padding: 6px 8px;
+        }
+
+    #main-nav-ribbon > ul {
+        list-style: none;
+        position: relative;
+    }
+
+    #main-nav-ribbon ul ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        line-height: 1;
+    }
+
+
+
+        #main-nav-ribbon ul ul span,
+        #main-nav-ribbon ul ul a {
+            display: block;
+            width: 160px;
+            height: 15px;
+            font-style: normal;
+            text-transform: uppercase;
+            padding-top: 5px;
+            margin: 0;
+            background: none;
+            font-size: 10px;
+            display: block;
+            width: 154px;
+            color: #A5D4EC;
+            text-indent: 6px;
+            text-align: left;
+        }
+
+        #main-nav-ribbon ul ul span {
+            text-decoration: none;
+            position: relative;
+            left: auto;
+            width: 160px;
+            background: url("/assets/nflimg/car-global-spr.png") -215px 0px no-repeat;
+        }
+
+    #main-nav-ribbon > ul > li {
+        float: left;
+        padding: 0;
+        position: relative;
+    }
+
+    #main-nav-ribbon ul li a {
+        display: block;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 95%;
+        padding: 0;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    #main-nav-ribbon ul li ul {
+        position: absolute;
+    }
+
+        #main-nav-ribbon ul li ul li {
+            position: relative;
+            float: left;
+            padding: 0;
+            margin-left: 0;
+        }
+
+            #main-nav-ribbon ul li ul li.last {
+            }
+
+
+        #main-nav-ribbon ul li ul ul {
+            margin: 0 0 0 160px;
+        }
+
+            #main-nav-ribbon ul li ul ul li {
+                border: none;
+            }
+
+        #main-nav-ribbon ul li ul a.selected,
+        #main-nav-ribbon ul li ul span.selected {
+        }
+
+    #main-nav-ribbon ul li li:hover span {
+        background: url("/assets/nflimg/car-global-spr.png") -15px 0px no-repeat;
+    }
+
+    #main-nav-ribbon ul li li.on-active:hover span {
+        background: url("/assets/nflimg/car-global-spr.png") -15px 0px no-repeat;
+    }
+
+    #main-nav-ribbon ul ul a:hover {
+        background: #009ada;
+    }
+
+    #main-nav-ribbon ul ul li.on {
+        background-color: #009ada;
+    }
+
+    #main-nav-ribbon ul ul li.on-hover {
+        background-color: #009ada;
+    }
+
+    #main-nav-ribbon ul ul li.on-active {
+        background-color: #009ada;
+    }
+
+    #main-nav-ribbon ul.root-menu-items li a:hover,
+    #main-nav-ribbon ul.root-menu-items li a.hover {
+        background-color: #0086bf;
+    }
+
+    #main-nav-ribbon ul.root-menu-items li a.selected {
+        background-color: #000;
+    }
+
+    #main-nav-ribbon #ribbon-container {
+        height: auto;
+        top: 42px;
+        background: none #fff;
+        width:970px;
+    }
+
+        #main-nav-ribbon #ribbon-container .ribbon-container-wrp-1 {
+            background: transparent;
+            min-height: 150px;
+            padding-bottom: 15px;
+        }
+
+    #main-nav-ribbon .sfhover-off,
+    #main-nav-ribbon ul li:hover ul ul,
+    #main-nav-ribbon ul li:hover ul ul ul,
+    #main-nav-ribbon ul li.sfhover ul,
+    #main-nav-ribbon ul li.sfhover ul ul,
+    #main-nav-ribbon ul li.sfhover ul ul ul {
+        /*left: -999em;*/
+    }
+
+    #main-nav-ribbon .sfhover-on,
+    #main-nav-ribbon ul li:hover ul,
+    #main-nav-ribbon ul li li:hover ul,
+    #main-nav-ribbon ul li li li:hover ul,
+    #main-nav-ribbon ul li.sfhover ul,
+    #main-nav-ribbon ul li li.sfhover ul,
+    #main-nav-ribbon ul li li li.sfhover ul {
+        /*left: 220px;*/
+    }
+
+
+
+    #main-nav-ribbon ul li li.on-active:hover {
+        background-color: #009ada;
+    }
+
+    #main-nav-ribbon ul li#main-nav-team ul {
+        margin-left: 152px;
+    }
+
+        #main-nav-ribbon ul li#main-nav-team ul li ul {
+            margin-left: 160px;
+        }
+
+
+    #main-nav-ribbon #ribbon-container .close span {
+        top: 1px;
+    }
+
+    #main-nav-ribbon ul li a {
+        text-transform: none;
+    }
+
+
+#ribbon-container .fragment-container .mod-wrp-1 {
+    margin-right: 15px;
+    background: none;
+}
+
+#ribbon-container .fragment-container .module .mod-title h2,
+#ribbon-container .fragment-container .module .hd .title h2 {
+    /*background: transparent none repeat-x;*/
+    margin-right: 0;
+}
+
+#ribbon-container .fragment-container .content-list .bd ul {
+    /*margin: 0 10px 0 15px;*/
+    margin: 0;
+}
+
+#ribbon-container .fragment-container .content-list .bd li,
+#ribbon-container .fragment-container .content-list .content-list-variation-1 .bd li,
+#ribbon-container .fragment-container .content-list .content-list-variation-2 .bd li,
+#ribbon-container .fragment-container .content-list .content-list-variation-2 .bd li.loop-first {
+    /*padding: 10px 10px 0 0;*/
+    padding: 5px 15px 5px 15px;
+    width: auto;
+}
+
+#ribbon-container .fragment-container .content-list .content-list-variation-2 .bd li {
+    border-bottom: 1px solid #666;
+}
+
+    #ribbon-container .fragment-container .content-list .content-list-variation-2 .bd li.loop-last {
+        /*padding-bottom:0;*/
+        padding-bottom: 5px;
+    }
+
+/* Applying clearfix to li */
+#ribbon-container .fragment-container .content-list .content-list-variation-1 .bd li,
+#ribbon-container .fragment-container .content-list .content-list-variation-2 .bd li {
+    zoom: 1;
+}
+
+    #ribbon-container .fragment-container .content-list .content-list-variation-1 .bd li:before,
+    #ribbon-container .fragment-container .content-list .content-list-variation-2 .bd li:before,
+    #ribbon-container .fragment-container .content-list .content-list-variation-1 .bd li:after,
+    #ribbon-container .fragment-container .content-list .content-list-variation-2 .bd li:after {
+        content: "";
+        display: table;
+    }
+
+    #ribbon-container .fragment-container .content-list .content-list-variation-1 .bd li:after,
+    #ribbon-container .fragment-container .content-list .content-list-variation-2 .bd li:after {
+        clear: both;
+    }
+
+#ribbon-container .fragment-container .content-list .bd li .itm-wrp-1 {
+    /*padding: 0 10px;*/
+    padding: 0;
+}
+
+#ribbon-container .fragment-container .content-list .content-list-variation-2 .bd li .itm-wrp-1 {
+    min-height: 59px;
+}
+
+#ribbon-container .fragment-container .content-list .bd ul li .thumb {
+    /*height: 70px;*/
+    /*margin: 0 10px 0 0;*/
+    /*width: 95px;*/
+    position: relative;
+}
+
+#ribbon-container .fragment-container .content-list .tmb-video-play {
+    left: 3px;
+    top: 9px;
+}
+
+#ribbon-container .fragment-container .content-list .bd li div h3 {
+    /*padding-top: 8px;*/
+    padding: 0;
+}
+
+#ribbon-container .fragment-container .content-list .ft {
+    /*padding: 20px 15px 10px;*/
+    padding: 10px 0 10px 15px;
+}
+
+    #ribbon-container .fragment-container .content-list .ft .action-bar .content-more {
+        margin-top: 0;
+    }
